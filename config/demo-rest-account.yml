@@ -1,3 +1,23 @@
----
+spring:
+  profiles.active: development
+
 server:
-  port: 8082
+  port: 8083
+
+---
+spring:
+  profiles: development
+
+ping.controller.message: Account restful service is running in development.
+
+---
+spring:
+   profiles: test
+
+ping.controller.message: Account restful service is running in test.
+
+---
+spring:
+   profiles: production
+
+ping.controller.message: Account restful service is running in production.
