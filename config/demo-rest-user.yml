@@ -8,7 +8,7 @@ server:
 spring:
   profiles: development
 
-ping.controller.message: User restful service is running in development.
+ping.controller.message: User restful service is running in development..
 
 ---
 spring:
