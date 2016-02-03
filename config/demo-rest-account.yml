@@ -2,7 +2,12 @@ spring:
   profiles.active: development
 
 server:
-  port: 8083
+  port: 8091
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8010/eureka/
 
 ---
 spring:
