@@ -9,6 +9,10 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:8081/eureka/
 
+account.service.name: demo-rest-account
+exchange-rate.service.name: demo-rest-exchange-rate
+logging.file: demo-rest-user.log
+
 ---
 spring:
   profiles: development
